@@ -81,6 +81,10 @@ config_local.ini
 secrets.json
 .env
 
+# Discord bot configuration (contains tokens)
+discord_config_local.py
+discord_secrets.py
+
 # Large files
 *.zip
 *.rar

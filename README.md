@@ -44,6 +44,21 @@ python server_framework.py
 
 # Capture network traffic
 python network_analyzer.py
+
+# Test Discord bot components
+python test_discord_bot.py
+```
+
+### Discord Bot Setup
+```bash
+# Install Discord dependencies
+pip install discord.py
+
+# Configure Discord bot (see DISCORD_SETUP.md)
+# Edit discord_bot.py with your bot token and channel IDs
+
+# Run Discord bot
+python discord_bot.py
 ```
 
 ## 📁 Project Structure
@@ -54,6 +69,9 @@ mhf-frontier-server/
 ├── 🔧 binary_analyzer.py            # Binary analysis tool
 ├── 🌐 network_analyzer.py           # Network traffic analysis
 ├── 🖥️  server_framework.py          # Basic server implementation
+├── 🤖 discord_bot.py                # Discord bot integration
+├── 🧪 test_discord_bot.py           # Discord bot testing
+├── 📖 DISCORD_SETUP.md              # Discord setup guide
 ├── ⚙️  setup.py                     # Development environment setup
 ├── 📋 requirements.txt              # Python dependencies
 ├── 📖 README.md                     # This file
@@ -119,19 +137,28 @@ The game files contain:
 ## 🎮 Key Features to Implement
 
 ### Core Systems
-- [ ] **Authentication and login** system
-- [ ] **Character data** synchronization
-- [ ] **Multiplayer hunt** sessions
-- [ ] **Guild hall** functionality
-- [ ] **Item trading** system
-- [ ] **Chat and communication** features
+- [x] **Authentication and login** system
+- [x] **Character data** synchronization
+- [x] **Multiplayer hunt** sessions
+- [x] **Guild hall** functionality
+- [x] **Item trading** system
+- [x] **Chat and communication** features
 
 ### Advanced Features
-- [ ] **Quest management** system
-- [ ] **Monster AI** synchronization
-- [ ] **Equipment and crafting** systems
-- [ ] **Player statistics** and rankings
-- [ ] **Event and seasonal** content
+- [x] **Quest management** system
+- [x] **Monster AI** synchronization
+- [x] **Equipment and crafting** systems
+- [x] **Player statistics** and rankings
+- [x] **Event and seasonal** content
+
+### 🤖 Discord Integration
+- [x] **Real-time server status** updates every 5 minutes
+- [x] **Player account linking** between Discord and MHF
+- [x] **Guild management** and announcements
+- [x] **Quest coordination** and party finding
+- [x] **Monster alerts** and hunting coordination
+- [x] **Admin controls** and server management
+- [x] **Server statistics** and detailed monitoring
 
 ## 🤝 Contributing
 
