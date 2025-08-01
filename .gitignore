@@ -1,0 +1,88 @@
+# Monster Hunter Frontier G - Git Ignore
+
+# Game files (large binaries - don't commit these)
+Monster Hunter Frontier G/
+*.app
+*.h3
+*.tmd
+*.tik
+*.cert
+
+# Analysis results and captures
+analysis_results/
+captured_traffic/
+*.pcap
+*.pcapng
+
+# Server data (contains user data)
+server_data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Configuration files with sensitive data
+config_local.ini
+secrets.json
+.env
+
+# Large files
+*.zip
+*.rar
+*.7z
+*.tar.gz 
